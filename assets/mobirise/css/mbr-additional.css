@@ -843,6 +843,26 @@ a {
   text-align: center;
   color: #000000;
 }
+.cid-uanhMBDgoP {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+.cid-uanhMBDgoP .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uanhMBDgoP .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uanhMBDgoP .row {
+  flex-direction: row-reverse;
+}
 .cid-uancDLHbVN {
   padding-top: 6rem;
   padding-bottom: 6rem;
