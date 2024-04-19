@@ -901,7 +901,6 @@ a {
   height: 90px;
   padding: 0.5rem 0.6rem;
   flex-wrap: nowrap;
-  background: rgba(255, 255, 255, 0.8) !important;
   left: 0;
   right: 0;
   -webkit-box-pack: justify;
@@ -913,7 +912,7 @@ a {
   align-items: center;
   border-radius: 100vw;
   margin-top: 1rem;
-  background-color: #ffffff;
+  background-color: #000000;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
 }
 @media (max-width: 992px) {
@@ -942,8 +941,7 @@ a {
   border-radius: 1.5rem;
   transition: .3s all !important;
   min-width: auto;
-  background: #ffffff;
-  background: rgba(255, 255, 255, 0.8) !important;
+  background: #000000;
 }
 .cid-uan30wkBGc .nav-item:focus,
 .cid-uan30wkBGc .nav-link:focus {
@@ -1007,7 +1005,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-uan30wkBGc .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3rem);
+    max-height: calc(98.5vh - 3.2rem);
   }
 }
 .cid-uan30wkBGc .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -1105,7 +1103,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-uan30wkBGc .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #000000;
 }
 .cid-uan30wkBGc .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -1269,10 +1267,7 @@ a {
     width: 100%;
     padding: 1rem;
     border-radius: 1.5rem;
-    background: #ffffff;
-    opacity: 1;
-    border-color: rgba(255, 255, 255, 0.8) !important;
-    background: rgba(255, 255, 255, 0.8) !important;
+    background: #000000;
     backdrop-filter: blur(8px);
   }
   .cid-uan30wkBGc .navbar-nav .nav-item .nav-link::after {
@@ -1335,4 +1330,24 @@ a {
   .cid-uan30wkBGc .navbar-collapse {
     padding: 1rem;
   }
+}
+.cid-uan74NwGBm {
+  padding-top: 6rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-uan74NwGBm .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uan74NwGBm .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uan74NwGBm .row {
+  flex-direction: row-reverse;
 }
