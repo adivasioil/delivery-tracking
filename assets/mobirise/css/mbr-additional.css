@@ -1005,7 +1005,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-uan30wkBGc .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.2rem);
+    max-height: calc(98.5vh - 2rem);
   }
 }
 .cid-uan30wkBGc .navbar.collapsed .dropdown-menu .dropdown-submenu {
